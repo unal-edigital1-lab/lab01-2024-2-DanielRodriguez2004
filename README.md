@@ -52,5 +52,5 @@ module sum1bcc (A, B, Ci,Cout,S);
 endmodule
 ```
 
-### Por otro lado, en este código no se definen directamente las compuertas, sino que se crea un registro, en la posición menos singnificativa se guarda la suma, y en la posición más significativa se guarda el carry.
-### Entonces se usa el bloque always, que se define para ejecutarse siempre que alguna entrada (A,B, o Ci) cambie, suma las variables, y las reemplaza en el registro.
+### Por otro lado, en este código no se definen manualmente las compuertas, sino que se crea un registro, en la posición menos singnificativa se guarda la suma, y en la posición más significativa se guarda el carry.
+### Entonces se usa el bloque always, que se define para ejecutarse siempre que alguna entrada (A,B, o Ci) cambie, suma las variables, y las reemplaza en el registro. Automáticamente Quartus define las compuertas y conexiones necesarias para llevar a cbo la tarea.
