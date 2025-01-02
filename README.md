@@ -1,5 +1,5 @@
 # lab01- sumador 
-## Daniel Rodríguez
+## Daniel Alberto Rodríguez Porras
 
 ## informe de laboratorio 
 
