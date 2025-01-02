@@ -4,6 +4,7 @@
 ## informe de laboratorio 
 
 ### sumador 
+```
 module sum1bcc_primitive (A, B, Ci,Cout,S);
 
   input  A;
