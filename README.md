@@ -62,18 +62,19 @@ endmodule
 
 ![image](https://github.com/user-attachments/assets/d45ea73f-5f1e-4d83-a8e2-71e1895c89e7)
 
-### Como se aprecia en las simulaciones, los resultados empleando ambos métodos son identicos. 
+### Como se aprecia en las simulaciones, los resultados empleando ambos métodos son identicos. Estos se consignan en la siguiente tabla de verdad:
 
 | A | B | Cin | S | Cout |
-|---|---|-----|---|---|
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
-| A | B | Cin | S | Cout |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+
 
 
 
