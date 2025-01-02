@@ -3,7 +3,7 @@
 
 ## Informe de Laboratorio 
 
-### sumador 
+### Primero se analizará paso a paso el código empleado para el sumador de un bit. 
 ```verilog
 module sum1bcc_primitive (A, B, Ci,Cout,S);
 
@@ -26,4 +26,6 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 
   or (Cout,cout_t,a_ab);
 endmodule
+```
 
+### Para empezar se definieron las entradas y salidas.
