@@ -4,7 +4,7 @@
 ## informe de laboratorio 
 
 ### sumador 
-```
+```verilog
 module sum1bcc_primitive (A, B, Ci,Cout,S);
 
   input  A;
