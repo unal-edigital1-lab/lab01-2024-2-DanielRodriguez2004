@@ -1,5 +1,5 @@
 # lab01- sumador 
-## nombres
+## Daniel Rodríguez
 
 ## informe de laoratorio 
 
