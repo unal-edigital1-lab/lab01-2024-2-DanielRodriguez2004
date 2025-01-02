@@ -54,5 +54,22 @@ endmodule
 
 ### Por otro lado, en este código no se definen manualmente las compuertas, sino que se crea un registro, en la posición menos singnificativa se guarda la suma, y en la posición más significativa se guarda el carry.
 ### Entonces se usa el bloque always, que se define para ejecutarse siempre que alguna entrada (A,B, o Ci) cambie, suma las variables, y las reemplaza en el registro. Automáticamente Quartus define las compuertas y conexiones necesarias para llevar a cbo la tarea.
+
+### A continuación observamos la simulación del primitive:
 ![image](https://github.com/user-attachments/assets/0c57791e-7302-4360-898a-753086a46ce0)
+
+### Y por último, la simulación del bcc:
+
+![image](https://github.com/user-attachments/assets/d45ea73f-5f1e-4d83-a8e2-71e1895c89e7)
+
+### Como se aprecia en las simulaciones, los resultados empleando ambos métodos son identicos. 
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+|--------------|--------------|--------------|
+| Fila 1 Col 1 | Fila 1 Col 2 | Fila 1 Col 3 |
+| Fila 2 Col 1 | Fila 2 Col 2 | Fila 2 Col 3 |
+
+
+
+
 
