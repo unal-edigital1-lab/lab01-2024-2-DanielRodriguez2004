@@ -28,4 +28,6 @@ module sum1bcc_primitive (A, B, Ci,Cout,S);
 endmodule
 ```
 
-### Para empezar se definieron las entradas y salidas.
+### Para empezar se definieron las entradas y salidas, incluyendo el carry, además de los cables que se van a utilizar.
+
+### Posteriormente, se definen las cinco compuertas lógicas, y se debe indicar cual va a ser la salida, la entrada 1, y la entrada dos, en ese orden.
