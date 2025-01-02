@@ -1,6 +1,6 @@
 # lab01- sumador 
 ## Daniel Rodríguez
 
-## informe de laoratorio 
+## informe de laboratorio 
 
 ### sumador 
